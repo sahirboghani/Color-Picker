@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/taken_picture"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/match_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColor="#FFFFFF"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/dominant_color"
+
+        />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Similar Colors"
+        android:textSize="18dp"
+        android:background="#ff0aff00"
+        android:onClick="matchColorButtonHandler"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        />
+
+</LinearLayout>

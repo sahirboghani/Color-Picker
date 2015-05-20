@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dialog_slider_root_element"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Swatches"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:padding="12dp"
+        />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_of_swatches"
+        android:max="255"
+        />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="1"
+        android:textSize="30dp"
+        android:id="@+id/current_swatch_length"
+        />
+
+</LinearLayout>
